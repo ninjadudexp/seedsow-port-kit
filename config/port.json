@@ -13,5 +13,5 @@
     "directory": "../seedsow-nora-kit/port/engine",
     "connectHostFlag": "--console-ip"
   },
-  "comment": "Set entry.host here or (preferred) in config/port.local.json, which is gitignored."
+  "comment": "Set entry.host here or (preferred) in config/port.local.json, which is gitignored. SeedSow needs only an existing save archive; the Lua Editor save is installed by the kit."
 }
