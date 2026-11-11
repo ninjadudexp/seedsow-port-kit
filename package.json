@@ -1,0 +1,21 @@
+{
+  "name": "seedsow-port-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Port the CivSwitch/ns2jb Stage-2 chain onto the SeedSow (nora2hax) Lua entry",
+  "license": "GPL-2.0-only",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "seedsow-preflight": "tools/preflight.cjs",
+    "seedsow-deploy": "tools/deploy-bridge.cjs",
+    "seedsow-run": "tools/run-port.cjs"
+  },
+  "scripts": {
+    "test": "node tests/run-all.cjs",
+    "preflight": "node tools/preflight.cjs",
+    "deploy": "node tools/deploy-bridge.cjs",
+    "port": "node tools/run-port.cjs"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "entry": {
+    "host": "",
+    "httpPort": 8080,
+    "evalPath": "/eval",
+    "bodyLimit": 28672
+  },
+  "bridge": {
+    "file": "bridge/nora_bridge.lua",
+    "listenPort": 39385
+  },
+  "engine": {
+    "directory": "../seedsow-nora-kit/port/engine",
+    "connectHostFlag": "--console-ip"
+  },
+  "comment": "Set entry.host here or (preferred) in config/port.local.json, which is gitignored."
+}

@@ -1,0 +1,8 @@
+node_modules/
+runs/
+dumps/
+backups/
+*.log
+port.local.json
+.DS_Store
+Thumbs.db
